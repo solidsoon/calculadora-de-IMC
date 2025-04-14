@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>BMI</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <p>Weight</p>
+            <input id="weight" name="weight" type="number" placeholder="Insert your Weight">
+            <p>Height</p>
+            <input type="number" name="height" id="height" placeholder="Insert your Height">
+        </form>
+
+        <div class="btnToCalculate">
+            <button id="btn" type="submit" value="calc">To calculate</button>
+        </div>
+
+        <div class="title">
+            <h4 id="know">Know now your BMI index</h4>
+        </div>
+
+        <div class="table">
+            <div class="imc">
+                <div class="types">
+                    <h4>IMC</h4>
+                    <p>Menos de 17</p>
+                    <p>Menos de 17 e 18,49</p>
+                    <p>Menos de 18,5 e 24,99</p>
+                    <p>Menos de 25 e 29,99</p>
+                    <p>Menos de 30 e 34,99</p>
+                    <p>Menos de 35 e 39,99</p>
+                    <p>Acima de 40</p>
+                </div>
+
+                <div class="classification">
+                    <p>Muito abaixo do peso</p>
+                    <p>Abaixo do peso</p>
+                    <p>Peso normal</p>
+                    <p>Acima do peso</p>
+                    <p>Obesidade I</p>
+                    <p>Obesidade II</p>
+                    <p>Obesidade III</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
